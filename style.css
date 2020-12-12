@@ -3,7 +3,7 @@ body {
 }
 
 h1 {font-size: 66px;font-weight: 600;line-height: 80px;}
-
+h2 {font-size: 48px; margin-bottom:30px ;}
 
 p{ 
     font-size:18px;
@@ -12,8 +12,12 @@ p{
     margin-bottom: 0;
 }
 
+section {
+    padding:120px 0;
+
+}
 .topmargin-xs{margin-top: 15px;}
-.topmargin-sm{margin-top: 20px;}
+.topmargin-sm{margin-top: 30px;}
 .topmargin-lg{margin-top: 60px;}
 
 .btn {
