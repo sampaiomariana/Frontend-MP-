@@ -7,13 +7,13 @@ h1 {font-size: 66px;font-weight: 600;line-height: 80px;}
 
 p{ 
     font-size:18px;
-    color: #999999;
+    color:black;
     line-height: 1.8;
     margin-bottom: 0;
 }
 
 .topmargin-xs{margin-top: 15px;}
-.topmargin-sm{margin-top: 30px;}
+.topmargin-sm{margin-top: 20px;}
 .topmargin-lg{margin-top: 60px;}
 
 .btn {
@@ -31,6 +31,10 @@ p{
     color: black;
     border: 2px solid #ffffff;
 
+}
+
+.btn i {
+    font-size: 14px; margin-left: 5px;
 }
 .navbar {
     background-color: #ffffff;
