@@ -1,0 +1,82 @@
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <link href = "style.css" rel = "stylesheet">
+        <link href = "monitorias.css" rel = "stylesheet">
+
+        <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">        
+        <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+
+        <title>Monitorias</title>
+        
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg fixed-top ">
+            <div class="container">
+                <a class="navbar-brand" href="#">Monitoria</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html" id = "iniciar">Iniciar <span class="sr-only"></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" id = "logar">Logar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" id = "cadastro">Cadastro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="monitorias.html" id = "acesso">Acessar Monitorias</a>
+                        </li>   
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container monitoria">
+            
+            <div class="monitoria-header">
+                <h3>Editar monitoria</h3>
+                <a href="monitorias.html"><button class="btn btn-button btn-primary">Voltar</button></a>
+            </div>
+            
+            <form>
+                <div class="form-group">
+                    <select class="custom-select">
+                        <option selected>Selecione um monitor cadastrado</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Nome do monitor</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Digite o nome do monitor">
+                </div>
+                
+                <button class="btn btn-success" type="submit">Editar</button>
+              </form>
+
+
+        </div>
+        
+
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>

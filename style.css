@@ -48,7 +48,7 @@ section {
 }
 
 .nav-link { color:black;}
-.nav-link:hover{color: black;}
+.nav-link:hover{color: rgb(129, 127, 127);}
 
 
 .navbar-toggler { font-size: 40px; }
@@ -59,7 +59,7 @@ section {
 #hero {
     background-image: url('images/hero.jpg');
     background-size: cover;
-    padding-top: 90px;
+    padding-top: 200px;
     min-height: 700px;
     color:#ffffff;
 }
