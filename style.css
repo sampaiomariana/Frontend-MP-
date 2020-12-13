@@ -11,6 +11,15 @@ p{
     line-height: 1.8;
     margin-bottom: 0;
 }
+.disciplina-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.disciplina-header > a  > button{
+    padding: 10px;
+}
 
 section {
     padding:120px 0;
@@ -48,7 +57,7 @@ section {
 }
 
 .nav-link { color:black;}
-.nav-link:hover{color: rgb(129, 127, 127);}
+.nav-link:hover{color: black;}
 
 
 .navbar-toggler { font-size: 40px; }
@@ -59,7 +68,7 @@ section {
 #hero {
     background-image: url('images/hero.jpg');
     background-size: cover;
-    padding-top: 200px;
+    padding-top: 90px;
     min-height: 700px;
     color:#ffffff;
 }
