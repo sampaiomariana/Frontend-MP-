@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link href = "style.css" rel = "stylesheet">
+   
+
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">        
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+
+    <title>Monitorias</title>
+    
+</head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top">
+      <div class="container">
+      <a class="navbar-brand" href="#">Monitoria</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#" id = "iniciar">Iniciar <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id = "logar">Logar</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#" id = "cadastro">Cadastro</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="monitorias.html" id = "acesso">Acessar Monitorias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="disciplinas.html" id = "acesso">Acessar Disciplinas</a>
+          </li>
+          
+          
+        </ul>
+      </div>
+      </div>
+    </nav>
+   
+    <section id="hero">
+      <div class="container">
+        <div class="topmargin-lg " > 
+          <br><br><br>
+
+          <div class="mb-3" style="max-width: 50rem;">
+            <h3>Faça seu cadastro:</h3>
+            <form>
+
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputEmail">Email</label>
+                  <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputName">Nome</label>
+                  <input type="text" class="form-control" id="inputPassword4" placeholder="Name">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputPassword">Senha</label>
+                  <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputPassword2">Confirme a senha</label>
+                  <input type="password" class="form-control" id="inputPassword2" placeholder="Confirm password">
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </form>
+
+          </div>
+
+        </div>
+    </div>
+  </section>
+
+  <section id="cadastro">
+    <div class="container-fluid">
+      <div class="content-center"> 
+      <h2> Cadastro de uma nova disciplina </h2>  
+      <p> Para realizar o cadastro de uma nova disciplina preencha o formulário abaixo. </p>
+      <br>
+      <form>
+        <div class="form-group">
+          <br>
+          <label for="inputAddress">Nome da disciplina</label>
+          <br>
+          <input type="text" class="form-control" id="inputAddress" placeholder="NomeExemplo">
+        </div>
+        <br>
+         
+        <br>
+        <button type="submit" class="btn btn-primary">Cadastre</button>
+      </form>
+       
+    </section>
+
+
+  <section id="editedisciplina">
+    <div class="container-fluid">
+      <div class="content-center"> 
+      <h2> Edite  uma  disciplina </h2>  
+      <p> Para realizar a edição de uma disciplina preencha o formulário abaixo. </p>
+      <br>
+      <form>
+        <div class="form-group">
+          <br>
+          <label for="disciplina">Nome Atual da disciplina</label>
+          <br>
+          <input type="text" class="form-control" id="disciplina" placeholder="NomeExemplo">
+        </div>
+
+
+        <div class="form-group">
+          <br>
+          <label for="novonome">Novo nome da disciplina</label>
+          <br>
+          <input type="text" class="form-control" id="novonome" placeholder="NovoNomeExemplo">
+        </div>
+        <br>
+         
+        <button type="submit" class="btn btn-primary">Edite</button>
+      </form>
+       
+    </section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
