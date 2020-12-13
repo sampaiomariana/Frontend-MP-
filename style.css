@@ -84,4 +84,12 @@ section {
 
 }
 
+#black {
+    background-color: black;
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color:#ffffff;
+}
+
 
